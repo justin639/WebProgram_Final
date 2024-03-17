@@ -1,0 +1,62 @@
+/* need to see the  https://getbootstrap.com/ */
+/* As it were informed, I used the Bootstrap. So I learned how to use bootstrap CSS*/
+
+/* ========== Tag CSS part ========== */
+/* Usually setting default CSS */
+/* <body> CSS */
+body {
+    background-color: rgb(219, 240, 235);
+}
+
+/* <header> CSS */
+header {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: row;
+    background-color: white;
+}
+
+/* <textarea> CSS */
+textarea {
+    height: 150px;
+}
+/* ========== Tag CSS end =========== */
+
+
+/* ========= Class CSS part ========= */
+/* Related to status or special types */
+/* Tried to reduce style implementation on HTML */
+/* Mostly overriding Bootstrap CSS */
+/* Space between header and card section */
+.container {
+    margin-top: 40px;
+}
+
+/* for card gap */
+.col {
+    padding-bottom: 40px;
+}
+
+/* setting default height, in order to look better */
+/* cards with same height looks better than each with different height */
+.card {
+    max-width: 100%;
+    min-height: 100%;
+}
+.card-img-background {
+    height: 18.8rem;
+    object-fit: contain;
+    background-color: #eeeee3
+}
+
+/* border radius set for card button */
+.round {
+    border-radius: 2rem;
+}
+
+/* font color green */
+.green {
+    color: green;
+}
+/* ========= Class CSS end ========== */
